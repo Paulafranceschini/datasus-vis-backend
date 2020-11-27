@@ -7,9 +7,13 @@ from sqlalchemy import create_engine
 basedir = os.path.abspath(os.path.dirname(__file__))
 
 app = Flask(__name__)
-app.config["SQLALCHEMY_DATABASE_URI"] = "postgresql://postgres:0yEIpgye8jvEd9rq@bd-vis.cs6ezvd9qlti.us-east-1.rds.amazonaws.com/postgres"
+pw = os.environ['DB_PW']
+url = os.environ['DB_URL']
+db  = os.environ['DB_DB']
+db_user  = os.environ['DB_USER']
 
-#app.config["SQLALCHEMY_DATABASE_URI"] = 'postgres+pg8000://postgres:0yEIpgye8jvEd9rq@/tcc-datasus?unix_sock=/cloudsql/tcc-datasus-289918:us-central1:tcc-datasus-postgres/.s.PGSQL.5432'
+uri = "postgresql://" + db_user + ":"  + pw + "@" + url + db; 
+app.config["SQLALCHEMY_DATABASE_URI"] = uri
 
 db = SQLAlchemy(app)
 
@@ -17,7 +21,7 @@ app.config.from_object(__name__)
 CORS(app)
 
 db_properties={}
-db_properties['url_vis']= "postgresql://postgres:0yEIpgye8jvEd9rq@bd-vis.cs6ezvd9qlti.us-east-1.rds.amazonaws.com/postgres"
+db_properties['url_vis'] =uri
 
 engine = create_engine(db_properties['url_vis'], echo=True)
 

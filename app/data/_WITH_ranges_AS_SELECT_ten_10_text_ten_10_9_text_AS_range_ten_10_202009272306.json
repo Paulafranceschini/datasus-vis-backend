@@ -1,0 +1,4 @@
+{
+"WITH ranges AS (\n    SELECT (ten*10)::text||'-'||(ten*10+9)::text AS range,\n           ten*10 AS r_min, ten*10+9 AS r_max\n      FROM generate_series(0,9) AS t(ten))\nSELECT r.range, s.\"SEXO\", count(s.*) as total\n  FROM ranges r\n  LEFT JOIN \"SIH\" s ON s.\"IDADE\" BETWEEN r.r_min AND r.r_max\n GROUP BY r.range, s.\"SEXO\" \n ORDER BY r.range": [
+
+]}

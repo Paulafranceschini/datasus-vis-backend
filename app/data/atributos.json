@@ -1,0 +1,561 @@
+{
+"atributos": [
+	{
+		"id" : 1,
+		"nome" : "\tUF_ZI\t",
+		"descricao" : "\tUF a qual o hospital está vinculado.\t",
+		"tipo_atributo_id" : 1
+	},
+	{
+		"id" : 2,
+		"nome" : "\tANO_CMPT\t",
+		"descricao" : "\tAno de competência\t",
+		"tipo_atributo_id" : 2
+	},
+	{
+		"id" : 3,
+		"nome" : "\tMES_CMPT\t",
+		"descricao" : "\tMês de Competência\t",
+		"tipo_atributo_id" : 3
+	},
+	{
+		"id" : 4,
+		"nome" : "\tESPEC\t",
+		"descricao" : "\tEspecialidade do leito\t",
+		"tipo_atributo_id" : 1
+	},
+	{
+		"id" : 5,
+		"nome" : "\tCGC_HOSP\t",
+		"descricao" : "\tCNPJ do Estabelecimento\t",
+		"tipo_atributo_id" : 1
+	},
+	{
+		"id" : 6,
+		"nome" : "\tN_AIH\t",
+		"descricao" : "\tnúmero da AIH (Autorização de Internação Hospitalar)\t",
+		"tipo_atributo_id" : 2
+	},
+	{
+		"id" : 7,
+		"nome" : "\tIDENT\t",
+		"descricao" : "\ttipo da AIH\t",
+		"tipo_atributo_id" : 1
+	},
+	{
+		"id" : 8,
+		"nome" : "\tCEP\t",
+		"descricao" : "\tcep do paciente\t",
+		"tipo_atributo_id" : 1
+	},
+	{
+		"id" : 9,
+		"nome" : "\tMUNIC_RES\t",
+		"descricao" : "\tmunicípio do paciente\t",
+		"tipo_atributo_id" : 1
+	},
+	{
+		"id" : 10,
+		"nome" : "\tNASC\t",
+		"descricao" : "\tdata de nascimento do paciente\t",
+		"tipo_atributo_id" : 2
+	},
+	{
+		"id" : 11,
+		"nome" : "\tSEXO\t",
+		"descricao" : "\tsexo do paciente\t",
+		"tipo_atributo_id" : 1
+	},
+	{
+		"id" : 12,
+		"nome" : "\tUTI_MES_TO\t",
+		"descricao" : "\tquantidade de dias na UTI no mês\t",
+		"tipo_atributo_id" : 4
+	},
+	{
+		"id" : 13,
+		"nome" : "\tMARCA_UTI\t",
+		"descricao" : "\ttipo de UTI usada pelo paciente\t",
+		"tipo_atributo_id" : 1
+	},
+	{
+		"id" : 14,
+		"nome" : "\tUTI_INT_TO\t",
+		"descricao" : "\tquantidade de diárias em unidade intermediária\t",
+		"tipo_atributo_id" : 4
+	},
+	{
+		"id" : 15,
+		"nome" : "\tDIAR_ACOM\t",
+		"descricao" : "\tquantidade de diárias do acompanhante\t",
+		"tipo_atributo_id" : 4
+	},
+	{
+		"id" : 16,
+		"nome" : "\tQT_DIARIAS\t",
+		"descricao" : "\tquantidade de diárias\t",
+		"tipo_atributo_id" : 4
+	},
+	{
+		"id" : 17,
+		"nome" : "\tPROC_SOLIC\t",
+		"descricao" : "\tprocedimento solicitado\t",
+		"tipo_atributo_id" : 1
+	},
+	{
+		"id" : 18,
+		"nome" : "\tPROC_REA\t",
+		"descricao" : "\tprocedimento realizado\t",
+		"tipo_atributo_id" : 1
+	},
+	{
+		"id" : 19,
+		"nome" : "\tVAL_SH\t",
+		"descricao" : "\tvalor serviços hospitalares\t",
+		"tipo_atributo_id" : 4
+	},
+	{
+		"id" : 20,
+		"nome" : "\tVAL_SP\t",
+		"descricao" : "\tvalor de serviços profissionais\t",
+		"tipo_atributo_id" : 4
+	},
+	{
+		"id" : 21,
+		"nome" : "\tVAL_TOT\t",
+		"descricao" : "\tvalor total da AIH\t",
+		"tipo_atributo_id" : 4
+	},
+	{
+		"id" : 22,
+		"nome" : "\tVAL_UTI\t",
+		"descricao" : "\tvalor de UTI\t",
+		"tipo_atributo_id" : 4
+	},
+	{
+		"id" : 23,
+		"nome" : "\tUS_TOT\t",
+		"descricao" : "\tvalor total em dólar\t",
+		"tipo_atributo_id" : 4
+	},
+	{
+		"id" : 24,
+		"nome" : "\tDT_INTER\t",
+		"descricao" : "\tdata de internação\t",
+		"tipo_atributo_id" : 2
+	},
+	{
+		"id" : 25,
+		"nome" : "\tDT_SAIDA\t",
+		"descricao" : "\tdata de saída\t",
+		"tipo_atributo_id" : 2
+	},
+	{
+		"id" : 26,
+		"nome" : "\tDIAG_PRINC\t",
+		"descricao" : "\tdiagnóstico principal - CID 10\t",
+		"tipo_atributo_id" : 1
+	},
+	{
+		"id" : 27,
+		"nome" : "\tDIAG_SECUN\t",
+		"descricao" : "\tdiagnóstico secundário - CID 10\t",
+		"tipo_atributo_id" : 1
+	},
+	{
+		"id" : 28,
+		"nome" : "\tCOBRANCA\t",
+		"descricao" : "\tmotivo de saída\/permanência\t",
+		"tipo_atributo_id" : 1
+	},
+	{
+		"id" : 29,
+		"nome" : "\tNAT_JUR\t",
+		"descricao" : "\tnatureza jurídica do estabelecimento - CONCLA\t",
+		"tipo_atributo_id" : 1
+	},
+	{
+		"id" : 30,
+		"nome" : "\tGESTAO\t",
+		"descricao" : "\ttipo de gestão do hospital\t",
+		"tipo_atributo_id" : 1
+	},
+	{
+		"id" : 31,
+		"nome" : "\tIND_VDRL\t",
+		"descricao" : "\texame VDRL\t",
+		"tipo_atributo_id" : 1
+	},
+	{
+		"id" : 32,
+		"nome" : "\tMUNIC_MOV\t",
+		"descricao" : "\tmunicípio do estabelecimento\t",
+		"tipo_atributo_id" : 1
+	},
+	{
+		"id" : 33,
+		"nome" : "\tCOD_IDADE\t",
+		"descricao" : "\tunidade de medida de idade\t",
+		"tipo_atributo_id" : 1
+	},
+	{
+		"id" : 34,
+		"nome" : "\tIDADE\t",
+		"descricao" : "\tidade\t",
+		"tipo_atributo_id" : 4
+	},
+	{
+		"id" : 35,
+		"nome" : "\tDIAS_PERM\t",
+		"descricao" : "\tdias de permanência\t",
+		"tipo_atributo_id" : 4
+	},
+	{
+		"id" : 36,
+		"nome" : "\tMORTE\t",
+		"descricao" : "\tindica óbito\t",
+		"tipo_atributo_id" : 1
+	},
+	{
+		"id" : 37,
+		"nome" : "\tNACIONAL\t",
+		"descricao" : "\tcódigo de nacionalidade do paciente\t",
+		"tipo_atributo_id" : 1
+	},
+	{
+		"id" : 38,
+		"nome" : "\tCAR_INT\t",
+		"descricao" : "\tcaráter da internação\t",
+		"tipo_atributo_id" : 1
+	},
+	{
+		"id" : 39,
+		"nome" : "\tHOMONIMO\t",
+		"descricao" : "\ttem homonimo?\t",
+		"tipo_atributo_id" : 1
+	},
+	{
+		"id" : 40,
+		"nome" : "\tNUM_FILHOS\t",
+		"descricao" : "\tnúmero de filhos do paciente\t",
+		"tipo_atributo_id" : 4
+	},
+	{
+		"id" : 41,
+		"nome" : "\tINSTRU\t",
+		"descricao" : "\tgrau de instrução do paciente\t",
+		"tipo_atributo_id" : 2
+	},
+	{
+		"id" : 42,
+		"nome" : "\tCID_NOTIF\t",
+		"descricao" : "\tcid de notificação\t",
+		"tipo_atributo_id" : 1
+	},
+	{
+		"id" : 43,
+		"nome" : "\tCONTRACEP1\t",
+		"descricao" : "\ttipo de contraceptivo utilizado\t",
+		"tipo_atributo_id" : 1
+	},
+	{
+		"id" : 44,
+		"nome" : "\tCONTRACEP2\t",
+		"descricao" : "\ttipo de contraceptivo utilizado\t",
+		"tipo_atributo_id" : 1
+	},
+	{
+		"id" : 45,
+		"nome" : "\tGESTRISCO\t",
+		"descricao" : "\tgestante de risco\t",
+		"tipo_atributo_id" : 1
+	},
+	{
+		"id" : 46,
+		"nome" : "\tINSC_PN\t",
+		"descricao" : "\tnúmero da gestante no pré natal\t",
+		"tipo_atributo_id" : 1
+	},
+	{
+		"id" : 47,
+		"nome" : "\tSEQ_AIH5\t",
+		"descricao" : "\tsequencia de longa permanencia (AIH tipo 5)\t",
+		"tipo_atributo_id" : 1
+	},
+	{
+		"id" : 48,
+		"nome" : "\tCBOR\t",
+		"descricao" : "\tocupação do paciente\t",
+		"tipo_atributo_id" : 1
+	},
+	{
+		"id" : 49,
+		"nome" : "\tCNAER\t",
+		"descricao" : "\tcódigo de acidente do trabalho\t",
+		"tipo_atributo_id" : 1
+	},
+	{
+		"id" : 50,
+		"nome" : "\tVINCPREV\t",
+		"descricao" : "\tvínculo com a previdência\t",
+		"tipo_atributo_id" : 1
+	},
+	{
+		"id" : 51,
+		"nome" : "\tGESTOR_COD\t",
+		"descricao" : "\tmotivo de autorização da AIH pelo gestor\t",
+		"tipo_atributo_id" : 1
+	},
+	{
+		"id" : 52,
+		"nome" : "\tGESTOR_TP\t",
+		"descricao" : "\ttipo de gestor\t",
+		"tipo_atributo_id" : 1
+	},
+	{
+		"id" : 53,
+		"nome" : "\tGESTOR_CPF\t",
+		"descricao" : "\tcpf do festor\t",
+		"tipo_atributo_id" : 1
+	},
+	{
+		"id" : 54,
+		"nome" : "\tGESTOR_DT\t",
+		"descricao" : "\tdata da autorização dada pelo gestor\t",
+		"tipo_atributo_id" : 2
+	},
+	{
+		"id" : 55,
+		"nome" : "\tCNES\t",
+		"descricao" : "\tcódigo CNES do hospital\t",
+		"tipo_atributo_id" : 1
+	},
+	{
+		"id" : 56,
+		"nome" : "\tCNPJ_MANT\t",
+		"descricao" : "\tcnpj da mantenedoura\t",
+		"tipo_atributo_id" : 1
+	},
+	{
+		"id" : 57,
+		"nome" : "\tINFEHOSP\t",
+		"descricao" : "\tstatus de infecção hospitalar\t",
+		"tipo_atributo_id" : 1
+	},
+	{
+		"id" : 58,
+		"nome" : "\tCID_ASSO\t",
+		"descricao" : "\tCID causa\t",
+		"tipo_atributo_id" : 1
+	},
+	{
+		"id" : 59,
+		"nome" : "\tCID_MORTE\t",
+		"descricao" : "\tCID morte\t",
+		"tipo_atributo_id" : 1
+	},
+	{
+		"id" : 60,
+		"nome" : "\tCOMPLEX\t",
+		"descricao" : "\tcomplexidade\t",
+		"tipo_atributo_id" : 1
+	},
+	{
+		"id" : 61,
+		"nome" : "\tFINANC\t",
+		"descricao" : "\ttipo de financiamento\t",
+		"tipo_atributo_id" : 1
+	},
+	{
+		"id" : 62,
+		"nome" : "\tFAEC_TP\t",
+		"descricao" : "\tsubtiop de financiamento FAEC\t",
+		"tipo_atributo_id" : 1
+	},
+	{
+		"id" : 63,
+		"nome" : "\tREGCT\t",
+		"descricao" : "\tRegra contratual\t",
+		"tipo_atributo_id" : 1
+	},
+	{
+		"id" : 64,
+		"nome" : "\tRACA_COR\t",
+		"descricao" : "\traça\/cor do paciente\t",
+		"tipo_atributo_id" : 1
+	},
+	{
+		"id" : 65,
+		"nome" : "\tETNIA\t",
+		"descricao" : "\tetnia, se raça for indígena\t",
+		"tipo_atributo_id" : 1
+	},
+	{
+		"id" : 66,
+		"nome" : "\tSEQUENCIA\t",
+		"descricao" : "\tsequencial da AIH na remessa\t",
+		"tipo_atributo_id" : 2
+	},
+	{
+		"id" : 67,
+		"nome" : "\tREMESSA\t",
+		"descricao" : "\tnúmero da remessa\t",
+		"tipo_atributo_id" : 2
+	},
+	{
+		"id" : 68,
+		"nome" : "\tAUD_JUST\t",
+		"descricao" : "\tjustificativa do auditor para aceitação da AIH sem o número do Cartão Nacional de Saúde\t",
+		"tipo_atributo_id" : 1
+	},
+	{
+		"id" : 69,
+		"nome" : "\tSIS_JUST\t",
+		"descricao" : "\tjustificativa do estabelecimento para aceitação da AIH sem o número do Cartão Nacional de Saúde\t",
+		"tipo_atributo_id" : 1
+	},
+	{
+		"id" : 70,
+		"nome" : "\tVAL_SH_FED\t",
+		"descricao" : "\tvalor do complemento federal de serviços hospitalares\t",
+		"tipo_atributo_id" : 4
+	},
+	{
+		"id" : 71,
+		"nome" : "\tVAL_SP_FED\t",
+		"descricao" : "\tvalor do complemento federal de servi;os proffisionais\t",
+		"tipo_atributo_id" : 4
+	},
+	{
+		"id" : 72,
+		"nome" : "\tVAL_SH_GES\t",
+		"descricao" : "\tvalor do complemento do gestor de seviços hospitalares\t",
+		"tipo_atributo_id" : 4
+	},
+	{
+		"id" : 73,
+		"nome" : "\tVAL_SP_GES\t",
+		"descricao" : "\tvalor do complemento do gestor de seviços profissionais\t",
+		"tipo_atributo_id" : 4
+	},
+	{
+		"id" : 74,
+		"nome" : "\tVAL_UCI\t",
+		"descricao" : "\tvalor de UCI\t",
+		"tipo_atributo_id" : 4
+	},
+	{
+		"id" : 75,
+		"nome" : "\tMARCA_UCI\t",
+		"descricao" : "\ttipo de UCI usada pelo paciente\t",
+		"tipo_atributo_id" : 1
+	},
+	{
+		"id" : 76,
+		"nome" : "\tDIAGSEC1\t",
+		"descricao" : "\tdiagnóstico secundário 1\t",
+		"tipo_atributo_id" : 1
+	},
+	{
+		"id" : 77,
+		"nome" : "\tDIAGSEC2\t",
+		"descricao" : "\tdiagnóstico secundário 2\t",
+		"tipo_atributo_id" : 1
+	},
+	{
+		"id" : 78,
+		"nome" : "\tDIAGSEC3\t",
+		"descricao" : "\tdiagnóstico secundário 3\t",
+		"tipo_atributo_id" : 1
+	},
+	{
+		"id" : 79,
+		"nome" : "\tDIAGSEC4\t",
+		"descricao" : "\tdiagnóstico secundário 4\t",
+		"tipo_atributo_id" : 1
+	},
+	{
+		"id" : 80,
+		"nome" : "\tDIAGSEC5\t",
+		"descricao" : "\tdiagnóstico secundário 5\t",
+		"tipo_atributo_id" : 1
+	},
+	{
+		"id" : 81,
+		"nome" : "\tDIAGSEC6\t",
+		"descricao" : "\tdiagnóstico secundário 6\t",
+		"tipo_atributo_id" : 1
+	},
+	{
+		"id" : 82,
+		"nome" : "\tDIAGSEC7\t",
+		"descricao" : "\tdiagnóstico secundário 7\t",
+		"tipo_atributo_id" : 1
+	},
+	{
+		"id" : 83,
+		"nome" : "\tDIAGSEC8\t",
+		"descricao" : "\tdiagnóstico secundário 8\t",
+		"tipo_atributo_id" : 1
+	},
+	{
+		"id" : 84,
+		"nome" : "\tDIAGSEC9\t",
+		"descricao" : "\tdiagnóstico secundário 9\t",
+		"tipo_atributo_id" : 1
+	},
+	{
+		"id" : 85,
+		"nome" : "\tTPDISEC1\t",
+		"descricao" : "\ttipo de diagnóstico secundário 1\t",
+		"tipo_atributo_id" : 1
+	},
+	{
+		"id" : 86,
+		"nome" : "\tTPDISEC2\t",
+		"descricao" : "\ttipo de diagnóstico secundário 2\t",
+		"tipo_atributo_id" : 1
+	},
+	{
+		"id" : 87,
+		"nome" : "\tTPDISEC3\t",
+		"descricao" : "\ttipo de diagnóstico secundário 3\t",
+		"tipo_atributo_id" : 1
+	},
+	{
+		"id" : 88,
+		"nome" : "\tTPDISEC4\t",
+		"descricao" : "\ttipo de diagnóstico secundário 4\t",
+		"tipo_atributo_id" : 1
+	},
+	{
+		"id" : 89,
+		"nome" : "\tTPDISEC5\t",
+		"descricao" : "\ttipo de diagnóstico secundário 5\t",
+		"tipo_atributo_id" : 1
+	},
+	{
+		"id" : 90,
+		"nome" : "\tTPDISEC6\t",
+		"descricao" : "\ttipo de diagnóstico secundário 6\t",
+		"tipo_atributo_id" : 1
+	},
+	{
+		"id" : 91,
+		"nome" : "\tTPDISEC7\t",
+		"descricao" : "\ttipo de diagnóstico secundário 7\t",
+		"tipo_atributo_id" : 1
+	},
+	{
+		"id" : 92,
+		"nome" : "\tTPDISEC8\t",
+		"descricao" : "\ttipo de diagnóstico secundário 8\t",
+		"tipo_atributo_id" : 1
+	},
+	{
+		"id" : 93,
+		"nome" : "\tTPDISEC9\t",
+		"descricao" : "\ttipo de diagnóstico secundário 9\t",
+		"tipo_atributo_id" : 1
+	}
+]}

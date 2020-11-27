@@ -1,0 +1,403 @@
+{
+"data": [
+	{
+		"IDADE" : 0,
+		"count" : 5209
+	},
+	{
+		"IDADE" : 1,
+		"count" : 5481
+	},
+	{
+		"IDADE" : 2,
+		"count" : 4067
+	},
+	{
+		"IDADE" : 3,
+		"count" : 2925
+	},
+	{
+		"IDADE" : 4,
+		"count" : 2422
+	},
+	{
+		"IDADE" : 5,
+		"count" : 2235
+	},
+	{
+		"IDADE" : 6,
+		"count" : 1906
+	},
+	{
+		"IDADE" : 7,
+		"count" : 1847
+	},
+	{
+		"IDADE" : 8,
+		"count" : 1571
+	},
+	{
+		"IDADE" : 9,
+		"count" : 1755
+	},
+	{
+		"IDADE" : 10,
+		"count" : 1545
+	},
+	{
+		"IDADE" : 11,
+		"count" : 1397
+	},
+	{
+		"IDADE" : 12,
+		"count" : 1159
+	},
+	{
+		"IDADE" : 13,
+		"count" : 1354
+	},
+	{
+		"IDADE" : 14,
+		"count" : 1745
+	},
+	{
+		"IDADE" : 15,
+		"count" : 2354
+	},
+	{
+		"IDADE" : 16,
+		"count" : 2874
+	},
+	{
+		"IDADE" : 17,
+		"count" : 3681
+	},
+	{
+		"IDADE" : 18,
+		"count" : 4267
+	},
+	{
+		"IDADE" : 19,
+		"count" : 5280
+	},
+	{
+		"IDADE" : 20,
+		"count" : 6177
+	},
+	{
+		"IDADE" : 21,
+		"count" : 6086
+	},
+	{
+		"IDADE" : 22,
+		"count" : 6373
+	},
+	{
+		"IDADE" : 23,
+		"count" : 5949
+	},
+	{
+		"IDADE" : 24,
+		"count" : 6154
+	},
+	{
+		"IDADE" : 25,
+		"count" : 6355
+	},
+	{
+		"IDADE" : 26,
+		"count" : 6056
+	},
+	{
+		"IDADE" : 27,
+		"count" : 5598
+	},
+	{
+		"IDADE" : 28,
+		"count" : 5689
+	},
+	{
+		"IDADE" : 29,
+		"count" : 5546
+	},
+	{
+		"IDADE" : 30,
+		"count" : 5462
+	},
+	{
+		"IDADE" : 31,
+		"count" : 5549
+	},
+	{
+		"IDADE" : 32,
+		"count" : 5249
+	},
+	{
+		"IDADE" : 33,
+		"count" : 5097
+	},
+	{
+		"IDADE" : 34,
+		"count" : 5026
+	},
+	{
+		"IDADE" : 35,
+		"count" : 4720
+	},
+	{
+		"IDADE" : 36,
+		"count" : 5068
+	},
+	{
+		"IDADE" : 37,
+		"count" : 5287
+	},
+	{
+		"IDADE" : 38,
+		"count" : 5038
+	},
+	{
+		"IDADE" : 39,
+		"count" : 4635
+	},
+	{
+		"IDADE" : 40,
+		"count" : 4440
+	},
+	{
+		"IDADE" : 41,
+		"count" : 4288
+	},
+	{
+		"IDADE" : 42,
+		"count" : 3961
+	},
+	{
+		"IDADE" : 43,
+		"count" : 4003
+	},
+	{
+		"IDADE" : 44,
+		"count" : 3824
+	},
+	{
+		"IDADE" : 45,
+		"count" : 4041
+	},
+	{
+		"IDADE" : 46,
+		"count" : 3863
+	},
+	{
+		"IDADE" : 47,
+		"count" : 4187
+	},
+	{
+		"IDADE" : 48,
+		"count" : 4164
+	},
+	{
+		"IDADE" : 49,
+		"count" : 4415
+	},
+	{
+		"IDADE" : 50,
+		"count" : 4608
+	},
+	{
+		"IDADE" : 51,
+		"count" : 4752
+	},
+	{
+		"IDADE" : 52,
+		"count" : 4841
+	},
+	{
+		"IDADE" : 53,
+		"count" : 5104
+	},
+	{
+		"IDADE" : 54,
+		"count" : 5341
+	},
+	{
+		"IDADE" : 55,
+		"count" : 5389
+	},
+	{
+		"IDADE" : 56,
+		"count" : 5526
+	},
+	{
+		"IDADE" : 57,
+		"count" : 5863
+	},
+	{
+		"IDADE" : 58,
+		"count" : 5793
+	},
+	{
+		"IDADE" : 59,
+		"count" : 5891
+	},
+	{
+		"IDADE" : 60,
+		"count" : 5804
+	},
+	{
+		"IDADE" : 61,
+		"count" : 5961
+	},
+	{
+		"IDADE" : 62,
+		"count" : 6066
+	},
+	{
+		"IDADE" : 63,
+		"count" : 6030
+	},
+	{
+		"IDADE" : 64,
+		"count" : 5981
+	},
+	{
+		"IDADE" : 65,
+		"count" : 6056
+	},
+	{
+		"IDADE" : 66,
+		"count" : 6057
+	},
+	{
+		"IDADE" : 67,
+		"count" : 5807
+	},
+	{
+		"IDADE" : 68,
+		"count" : 5815
+	},
+	{
+		"IDADE" : 69,
+		"count" : 5812
+	},
+	{
+		"IDADE" : 70,
+		"count" : 5573
+	},
+	{
+		"IDADE" : 71,
+		"count" : 5302
+	},
+	{
+		"IDADE" : 72,
+		"count" : 5399
+	},
+	{
+		"IDADE" : 73,
+		"count" : 4852
+	},
+	{
+		"IDADE" : 74,
+		"count" : 4554
+	},
+	{
+		"IDADE" : 75,
+		"count" : 4556
+	},
+	{
+		"IDADE" : 76,
+		"count" : 4328
+	},
+	{
+		"IDADE" : 77,
+		"count" : 4107
+	},
+	{
+		"IDADE" : 78,
+		"count" : 3594
+	},
+	{
+		"IDADE" : 79,
+		"count" : 3633
+	},
+	{
+		"IDADE" : 80,
+		"count" : 3389
+	},
+	{
+		"IDADE" : 81,
+		"count" : 3227
+	},
+	{
+		"IDADE" : 82,
+		"count" : 2978
+	},
+	{
+		"IDADE" : 83,
+		"count" : 2930
+	},
+	{
+		"IDADE" : 84,
+		"count" : 2672
+	},
+	{
+		"IDADE" : 85,
+		"count" : 2396
+	},
+	{
+		"IDADE" : 86,
+		"count" : 2118
+	},
+	{
+		"IDADE" : 87,
+		"count" : 1864
+	},
+	{
+		"IDADE" : 88,
+		"count" : 1562
+	},
+	{
+		"IDADE" : 89,
+		"count" : 1554
+	},
+	{
+		"IDADE" : 90,
+		"count" : 1264
+	},
+	{
+		"IDADE" : 91,
+		"count" : 933
+	},
+	{
+		"IDADE" : 92,
+		"count" : 794
+	},
+	{
+		"IDADE" : 93,
+		"count" : 642
+	},
+	{
+		"IDADE" : 94,
+		"count" : 428
+	},
+	{
+		"IDADE" : 95,
+		"count" : 327
+	},
+	{
+		"IDADE" : 96,
+		"count" : 266
+	},
+	{
+		"IDADE" : 97,
+		"count" : 174
+	},
+	{
+		"IDADE" : 98,
+		"count" : 167
+	},
+	{
+		"IDADE" : 99,
+		"count" : 99
+	}
+]}

@@ -17,7 +17,7 @@ app.config.from_object(__name__)
 CORS(app)
 
 db_properties={}
-db_properties['url_vis']= "postgresql://postgres:0yEIpgye8jvEd9rq@34.95.217.119:5432/bd-vis"
+db_properties['url_vis']= "postgresql://postgres:0yEIpgye8jvEd9rq@bd-vis.cs6ezvd9qlti.us-east-1.rds.amazonaws.com/postgres"
 
 engine = create_engine(db_properties['url_vis'], echo=True)
 
